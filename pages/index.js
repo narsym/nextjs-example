@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className = {styles.title}> Home page </h1>
         <p className = {styles.text}> this is a paragraph</p>
         
-        <Link href = '/ninjas'><a className = {styles.btn}>See ninja listing</a></Link>
+        <Link href = '/ninja'><a className = {styles.btn}>See ninja listing</a></Link>
       
       </div>
     </>

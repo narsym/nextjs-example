@@ -13,7 +13,7 @@ const Ninjas = ({ ninjas }) => {
         <div>
             <h1>Ninja Listing</h1>
             {ninjas.map(ninja => (
-                <Link href = {'/ninjas/' + ninja.id} key = {ninja.id}>
+                <Link href = {'/ninja/' + ninja.id} key = {ninja.id}>
                     <a className = {styles.single}>
                     <h3> {ninja.name} </h3>
                     </a>
